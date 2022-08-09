@@ -1,0 +1,19 @@
+{
+  "name": "advice-generator-app",
+  "version": "1.0.0",
+  "description": "Advice generator.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilKriT/advice-generator-app.git"
+  },
+  "author": "lilKriT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilKriT/advice-generator-app/issues"
+  },
+  "homepage": "https://github.com/lilKriT/advice-generator-app#readme"
+}
