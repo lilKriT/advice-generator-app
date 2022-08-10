@@ -2,7 +2,7 @@
   "name": "advice-generator-app",
   "version": "1.0.0",
   "description": "Advice generator.",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
