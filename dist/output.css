@@ -412,6 +412,8 @@ video {
 
 html {
   font-family: Manrope, system-ui, sans-serif;
+  --tw-bg-opacity: 1;
+  background-color: hsl(193 38% 86% / var(--tw-bg-opacity));
 }
 
 *, ::before, ::after {
@@ -553,14 +555,4 @@ html {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
-}
-
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
-.bg-lightCyan {
-  --tw-bg-opacity: 1;
-  background-color: hsl(193 38% 86% / var(--tw-bg-opacity));
 }
