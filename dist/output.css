@@ -556,12 +556,24 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
+.m-7 {
+  margin: 1.75rem;
+}
+
 .flex {
   display: flex;
 }
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .items-center {
