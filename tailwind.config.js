@@ -10,6 +10,9 @@ module.exports = {
         darkGrayishBlue: "hsl(217, 19%, 24%)",
         darkBlue: "hsl(218, 23%, 16%)",
       },
+      dropShadow: {
+        neon: "0 0 35px hsl(150, 100%, 66%)",
+      },
     },
   },
   plugins: [],
