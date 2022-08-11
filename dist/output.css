@@ -560,6 +560,14 @@ html {
   margin: 1.75rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -576,12 +584,24 @@ html {
   max-width: 42rem;
 }
 
+.max-w-xl {
+  max-width: 36rem;
+}
+
 .items-center {
   align-items: center;
 }
 
 .justify-center {
   justify-content: center;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .bg-lightCyan {
@@ -599,12 +619,53 @@ html {
   background-color: hsl(217 19% 38% / var(--tw-bg-opacity));
 }
 
+.bg-darkGrayishBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(217 19% 24% / var(--tw-bg-opacity));
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .tracking-wide {
@@ -631,4 +692,14 @@ html {
 .text-neonGreen {
   --tw-text-opacity: 1;
   color: hsl(150 100% 66% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-grayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(217 19% 38% / var(--tw-text-opacity));
 }
