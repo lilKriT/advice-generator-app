@@ -560,6 +560,16 @@ html {
   margin: 1.75rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -568,12 +578,24 @@ html {
   margin-top: 1rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .max-w-3xl {
@@ -604,6 +626,10 @@ html {
   border-radius: 1.5rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .bg-lightCyan {
   --tw-bg-opacity: 1;
   background-color: hsl(193 38% 86% / var(--tw-bg-opacity));
@@ -622,6 +648,15 @@ html {
 .bg-darkGrayishBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(217 19% 24% / var(--tw-bg-opacity));
+}
+
+.bg-neonGreen {
+  --tw-bg-opacity: 1;
+  background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-6 {
