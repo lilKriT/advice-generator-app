@@ -598,3 +598,37 @@ html {
   --tw-bg-opacity: 1;
   background-color: hsl(217 19% 38% / var(--tw-bg-opacity));
 }
+
+.text-center {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.tracking-\[\.25rem\] {
+  letter-spacing: .25rem;
+}
+
+.text-lightCyan {
+  --tw-text-opacity: 1;
+  color: hsl(193 38% 86% / var(--tw-text-opacity));
+}
+
+.text-neonGreen {
+  --tw-text-opacity: 1;
+  color: hsl(150 100% 66% / var(--tw-text-opacity));
+}
