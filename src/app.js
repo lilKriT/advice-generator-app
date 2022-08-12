@@ -13,3 +13,4 @@ const generateAdvice = async () => {
 };
 
 button.addEventListener("click", generateAdvice);
+generateAdvice();
